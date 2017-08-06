@@ -1,0 +1,8 @@
+23:33:55.378 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "customers_email_key"
+  Подробности: Ключ "(email)=(c2@tut.by)" уже существует.
+23:57:46.349 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "customers_email_key"
+  Подробности: Ключ "(email)=(c2@tut.by)" уже существует.
+00:10:59.272 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "customers_email_key"
+  Подробности: Ключ "(email)=(c2@tut.by)" уже существует.
+17:36:50.758 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "customers_email_key"
+  Подробности: Ключ "(email)=(c2@tut.by)" уже существует.
