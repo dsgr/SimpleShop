@@ -14,7 +14,7 @@ import com.intexsoft.malkevich.service.impl.CustomerServiceImpl;
 public class CustomerController4 {
 	@Autowired
 	CustomerServiceImpl cs;
-	
+
 	@RequestMapping("/all")
 	public List<Customer> getAll() {
 		return cs.findAll();
