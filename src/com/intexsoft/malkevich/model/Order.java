@@ -13,7 +13,9 @@ import javax.persistence.TemporalType;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
-
+/**
+ * Class for store Order entity 
+ */
 @Entity
 @Table(name = "orders")
 public class Order extends AbstractEntity{

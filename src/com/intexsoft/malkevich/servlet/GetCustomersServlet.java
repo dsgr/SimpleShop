@@ -15,7 +15,9 @@ import com.intexsoft.malkevich.model.Customer;
 import com.intexsoft.malkevich.service.impl.CustomerServiceImpl;
 
 import ch.qos.logback.classic.Logger;
-
+/**
+ * Simple servlet example.
+ */
 public class GetCustomersServlet extends HttpServlet {
 	private static final long serialVersionUID = 8519671413542604293L;
 	static final Logger LOG = (Logger) LoggerFactory.getLogger(GetCustomersServlet.class);

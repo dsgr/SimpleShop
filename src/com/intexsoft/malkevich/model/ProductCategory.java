@@ -3,7 +3,9 @@ package com.intexsoft.malkevich.model;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
-
+/**
+ * Class for store ProductCategory entity
+ */
 @Entity
 @Table(name = "product_categories")
 public class ProductCategory extends AbstractEntity {

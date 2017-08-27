@@ -11,7 +11,9 @@ import javax.persistence.Table;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
-
+/**
+ * Class for store Customer entity
+ */
 @Entity
 @Table(name = "customers")
 public class Customer extends AbstractEntity {

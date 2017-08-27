@@ -6,7 +6,9 @@ import org.springframework.stereotype.Service;
 import com.intexsoft.malkevich.model.Customer;
 import com.intexsoft.malkevich.repository.CustomerRepository;
 import com.intexsoft.malkevich.service.CustomerService;
-
+/**
+ * This service provides basic CRUD operations upon {@link Customer} entities}
+ */
 @Service
 public class CustomerServiceImpl extends AbstractEntityServiceImpl<Customer> implements CustomerService {
 	@Autowired

@@ -5,7 +5,9 @@ import javax.persistence.Entity;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
-
+/**
+ * Class for store Product entity
+ */
 @Entity
 @Table(name = "products")
 public class Product extends AbstractEntity {

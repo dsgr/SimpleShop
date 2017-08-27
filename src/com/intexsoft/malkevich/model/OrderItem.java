@@ -5,7 +5,9 @@ import javax.persistence.Entity;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
-
+/**
+ * Class for store OrderItem entity
+ */
 @Entity
 @Table(name = "products_to_orders")
 public class OrderItem extends AbstractEntity {
