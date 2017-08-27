@@ -19,11 +19,18 @@ public class Runner {
 		LOG.debug("Starting main()...");
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring-config.xml");
     	CustomerServiceImpl cs = context.getBean(CustomerServiceImpl.class);
-
+    	
+    	Customer customer1 = new Customer();
+		customer1.email = "ivan@mail.by";
+		customer1.name = "Ivan";
+		cs.save(customer1);
+    	
     	System.out.println(11 + cs.findByEmail("c2@tut.by").toString());
     	for (Customer c : cs.findAll()){
     		System.out.println(c.toString());
     	}
+    	
+    	
     	
     	
     	
