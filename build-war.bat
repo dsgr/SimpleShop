@@ -19,4 +19,5 @@ rem ===== Create war
 cd dist-war
 jar cvf mytest.war *
 
+
 pause
